@@ -1,0 +1,17 @@
+SELECT CONCAT('google','.ro')AS ConcatFunction
+
+SELECT ASCII (ProductID) NumberCodeOfID
+FROM Products
+
+SELECT ASCII ('0')
+
+SELECT CHAR (42) AS CodeToCharacter
+SELECT CHAR (64) AS CodeToCharacter
+
+SELECT LOWER ('MARE mic')
+SELECT UPPER ('MARE mic')
+
+SELECT REPLACE ('INLOCUIT','IN','DE NEin')
+
+SELECT GETDATE()
+SELECT MONTH('2023/12/20')
